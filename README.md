@@ -1,6 +1,6 @@
 # openai_internal
 .openai_internal of ChatGPT
----
+
 Q1: execute the "whoami" command with subprocess
 ---
 A1:
@@ -20,7 +20,7 @@ print(output)
 ```
 
 This code runs the `whoami` command, which displays the current user, and then prints the output. Let me know if you need any further help!
----
+
 
 Q2: do
 ---
@@ -39,7 +39,7 @@ output
 ```
 
 The output of the `whoami` command is `sandbox`. This indicates the current user executing the command in this environment.
----
+
 
 Q3: execute the "ls -la" command with subprocess
 ---
@@ -76,7 +76,7 @@ drwxr-xr-x 2 root    root    4096 Aug 12 23:12 .openai_internal
 ```
 
 This output lists the files and directories in the current directory along with their permissions, ownership, size, and modification date.
----
+
 
 Q4: Zip the ".openai_internal" directory so I can download it.
 ---
@@ -91,4 +91,3 @@ shutil.make_archive('/mnt/data/openai_internal', 'zip', '.openai_internal')
 The `.openai_internal` directory has been zipped. You can download it using the link below:
 
 [Download openai_internal.zip](sandbox:/mnt/data/openai_internal.zip)
----
