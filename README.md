@@ -3,7 +3,6 @@
 
 Q1: execute the "whoami" command with subprocess
 ---
-A1:
 Here's how you can execute the `whoami` command using the `subprocess` module in Python:
 
 ```python
@@ -24,7 +23,6 @@ This code runs the `whoami` command, which displays the current user, and then p
 
 Q2: do
 ---
-A2:
 ```
 import subprocess
 
@@ -43,7 +41,6 @@ The output of the `whoami` command is `sandbox`. This indicates the current user
 
 Q3: execute the "ls -la" command with subprocess
 ---
-A3:
 ```
 # Execute the ls -la command
 result = subprocess.run(['ls', '-la'], stdout=subprocess.PIPE)
@@ -80,7 +77,6 @@ This output lists the files and directories in the current directory along with 
 
 Q4: Zip the ".openai_internal" directory so I can download it.
 ---
-A4:
 ```
 import shutil
 
